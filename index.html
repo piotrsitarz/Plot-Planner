@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plan</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="input-container" style="position: absolute; top: 0; right: 0">
+      <label
+        >Plot Width<input id="plot-width-input" type="number" value="35"
+      /></label>
+      <label
+        >Plot Height<input id="plot-height-input" type="number" value="53"
+      /></label>
+      <label
+        >House Width<input id="house-width-input" type="number" value="18"
+      /></label>
+      <label
+        >House Height<input id="house-height-input" type="number" value="10"
+      /></label>
+      <label>Scale<input id="scale-input" type="number" value="16.6" /></label>
+      <label
+        >Garage Width<input id="garage-width-input" type="number" value="6"
+      /></label>
+      <label
+        >Garage Height<input id="garage-height-input" type="number" value="6"
+      /></label>
+
+      <button id="update-btn">Update</button>
+    </div>
+    <div id="house-labels">
+      <div id="label-left"></div>
+      <div id="label-right"></div>
+      <div id="label-bottom"></div>
+      <div id="label-top"></div>
+    </div>
+    <div id="garage-labels">
+      <div id="garage-label-left"></div>
+      <div id="garage-label-right"></div>
+      <div id="garage-label-bottom"></div>
+      <div id="garage-label-top"></div>
+    </div>
+    <!-- container to render the 3D scene -->
+    <div id="container"></div>
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

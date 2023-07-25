@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#labels {
+  position: absolute;
+  z-index: 1;
+}
+
+#label-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
+
+#label-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
+
+#label-top {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
+
+#label-bottom {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 40px;
+}
+
+#input-container label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: orange;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+#garage-label-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
+
+#garage-label-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
+
+#garage-label-top {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
+
+#garage-label-bottom {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+}
